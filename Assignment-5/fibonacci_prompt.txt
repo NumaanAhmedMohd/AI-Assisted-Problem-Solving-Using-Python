@@ -1,0 +1,27 @@
+Write a Python function that calculates the nth Fibonacci number using recursion.
+
+Requirements for the AI to produce (this is the prompt to give to an AI/code generator):
+
+1. Provide a function named `fib(n)` which computes the nth Fibonacci number using plain recursion (no memoization in the primary implementation). The function should:
+   - Accept a single integer parameter `n` (0-based indexing: fib(0) = 0, fib(1) = 1).
+   - Validate input: raise `TypeError` if `n` is not an integer; raise `ValueError` if `n` is negative.
+   - Return the nth Fibonacci number as an integer.
+
+2. Include a clear docstring for the function describing inputs, outputs, and exceptions.
+
+3. Include inline comments explaining each step in the recursion.
+
+4. After the plain recursive implementation, include an optional alternative implementation using memoization and comment why it is faster (keep it as a separate function `fib_memo(n)`). Clearly state in comments that memoization is optional and not the requested plain recursion.
+
+5. Add a short section of usage examples and expected outputs (for n=0..10), and a short complexity analysis that states time and space complexity for the plain recursive approach and for the memoized version.
+
+6. Provide a short explanation document (separate file suggested) that explains the algorithm in plain language, lists edge-cases, and gives suggestions for production use (e.g., iterative approach or using big-integer libraries if needed).
+
+7. Add 3 simple tests (assertions) that the AI includes or suggests to verify fib(0), fib(1), fib(10).
+
+Output format requested from the AI: 
+- The code for `fib` and `fib_memo` with docstrings and comments.
+- A short explanation block (or separate markdown file) containing the algorithm description and complexity.
+- A short tests block that can be copy-pasted and run.
+
+Be explicit and educational in comments and the explanation; aim for clarity for learners who are new to recursion.

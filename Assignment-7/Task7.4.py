@@ -1,6 +1,6 @@
 # Faulty class definition - missing 'self' parameter in __init__
 class Rectangle:
-    def __init__(length, width):  # ERROR: Missing 'self' parameter
+    def __init__(self,length, width):  # ERROR: Missing 'self' parameter
         self.length = length
         self.width = width
 
